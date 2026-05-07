@@ -1,4 +1,4 @@
-export const BOT_TOKEN = Deno.env.get("BOT_TOKEN");
+export const BOT_TOKEN = Deno.env.get("8785540202:AAHarh8M013k94zOGF-btZrk7oT_SlGNqlk");
 console.log(BOT_TOKEN);
 export const IMGBB_UPLOAD_URL = "https://api-integretion-unblocked.vercel.app/imgbb";
 export const SUBSCRIPTION_CHECK_BOT_TOKEN = BOT_TOKEN;
@@ -7,7 +7,7 @@ export const DEVELOPER_ID = 7855536617;
 export const WELCOME_IMAGE_URL = "https://i.imghippo.com/files/GdN9496KmY.jpg";
 
 // Validate required variables
-const requiredVars = ["BOT_TOKEN", "CHANNEL_USERNAME"];
+const requiredVars = ["8785540202:AAHarh8M013k94zOGF-btZrk7oT_SlGNqlk", "Al_Anime_in_Hindi_Dub"];
 requiredVars.forEach((varName) => {
   if (!Deno.env.get(varName)) {
     throw new Error(`Missing required environment variable: ${varName}`);
