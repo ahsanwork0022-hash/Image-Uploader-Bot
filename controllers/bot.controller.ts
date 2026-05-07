@@ -30,15 +30,15 @@ export const BotController = {
             inline_keyboard: [
               [{ 
                 text: "Developer 🎾", 
-                url: `tg://user?id=${DEVELOPER_ID}`
+                url: `tg://user?id=${@Ahsan_bai}`
               }],
               [{
                 text: "Join Channel 📢",
-                url: `https://t.me/${CLEAN_USERNAME}`
+                url: `https://t.me/${@HikaruAnimes}`
               }],
               [{ 
-                text: "Source Code ↗️", 
-                url: `https://github.com/Private-Bots-Official/Image-Uploader-Bot`
+                text: "MAIN CHANNEL", 
+                url: `https://t.me/Al_Anime_in_Hindi_Dub`
               }],
             ]
           }
@@ -94,8 +94,8 @@ export const BotController = {
                   url: `tg://msg_url?url=${encodeURIComponent(imageUrl)}`
                 }],
                 [{ 
-                  text: "Source Code ↗️", 
-                  url: `https://github.com/Private-Bots-Official/Image-Uploader-Bot`
+                  text: "MAIN CHANNEL", 
+                  url: `https://t.me/Al_Anime_in_Hindi_Dub`
                 }],
               ]
             } : undefined
