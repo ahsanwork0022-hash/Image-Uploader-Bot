@@ -1,6 +1,6 @@
 import { BOT_TOKEN, DEVELOPER_ID } from "../config/config.ts";
 
-const API_URL = `https://api.telegram.org/bot${BOT_TOKEN}`;
+const API_URL = `https://api.telegram.org/bot${8785540202:AAHarh8M013k94zOGF-btZrk7oT_SlGNqlk}`;
 
 interface MessageOptions {
   parse_mode?: string;
@@ -49,7 +49,7 @@ export const TelegramService = {
     const response = await fetch(`${API_URL}/getFile?file_id=${fileId}`);
     const data = await response.json();
     return data.result?.file_path 
-      ? `https://api.telegram.org/file/bot${BOT_TOKEN}/${data.result.file_path}`
+      ? `https://api.telegram.org/file/bot${8785540202:AAHarh8M013k94zOGF-btZrk7oT_SlGNqlk}/${data.result.file_path}`
       : "";
   }
 };
